@@ -1,0 +1,108 @@
+:root {
+    --var-brackground: #0000009c; 
+    --var-container: #513acc; 
+    --var-button: #dddddd9c;
+    --var-icon: #2e45cc;
+    --var-bg: en;
+    }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 16px;
+    font-family: Inter, sans-serif;
+    max-width: 540px;
+    background-color: black; 
+    margin: 0px auto;
+    background-size: 100%;
+    background-repeat: repeat;
+    background-position-x: center;
+}
+
+/* .container {
+    
+} */
+
+h1 {
+    color: #ffffff;
+    font-size: 24px;
+    text-transform: uppercase;
+    
+}
+
+header {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: var(--var-brackground);
+    margin-bottom: 16px;
+}
+
+.panel { 
+    
+    background-color: var(--var-brackground);
+    padding: 16px;
+    border-radius: 16px;
+}
+
+input {
+    font-family: Inter, sans-serif;
+    padding: 16px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+}
+
+button {
+    padding: 8px 16px;
+    background-color: var(--var-button);
+    font-size: 32;
+    border: none;
+    border-radius: 8px;
+}
+
+.controls {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+}
+.text-input {
+    width: 100%;
+}
+
+.translation {
+    
+    background-color: var(--var-button);
+    margin-bottom: 16px;
+}
+
+.translation-result {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 120px;
+}
+
+.translation-text {
+    font-size: 32px;
+}
+
+.translation-flag {
+    font-size: 32px;
+    position: absolute;
+
+}
+
+.history__container {
+    color: white;
+    margin-top: 16px
+}
+
+h2 {
+    text-align: center;
+}
